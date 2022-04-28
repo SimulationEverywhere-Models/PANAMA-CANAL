@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <top>
+    <components> gate@Gate </components>
+    <out> Out </out>
+    <out> controlOut </out>
+    <in> In </in>
+    <in> controlIn </in>
+    <Link> In In@gate </Link>
+    <Link> controlIn controlIn@gate </Link>
+    <Link> Out@Gate Out </Link>
+    <Link> controlOut@Gate controlOut </Link>
+  </top>
+</CDPlusPlus_Builder_Version_1.0.0>
